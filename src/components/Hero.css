@@ -1,0 +1,24 @@
+.hero-container {
+  background: linear-gradient(
+    to right,
+    #4731d3 0%,
+    #4731d3 75%,
+    #cbf281 75%,
+    #cbf281 100%
+  );
+  height: 100vh;
+}
+.hero-content-div {
+  position: relative; /* or relative */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 70%;
+}
+.hero-header-div {
+  position: relative; /* or relative */
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  max-width: 70%;
+}
