@@ -18,3 +18,11 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.social-icon {
+  color: #4731d3;
+}
+.footer-social-media-icon {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}

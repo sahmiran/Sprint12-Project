@@ -1,5 +1,8 @@
 import React from "react";
 import "./HeroContent.css";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
 function HeroContent() {
   return (
     <>
@@ -13,8 +16,14 @@ function HeroContent() {
             great user experiences.
           </p>
           <div className="hero-content-buttons">
-            <button className="hero-content-buttons-button">Github</button>
-            <button className="hero-content-buttons-button">Linkedin</button>
+            <button className="hero-content-buttons-button">
+              <FaGithub className="hero-content-button-button-icon" />
+              Github
+            </button>
+            <button className="hero-content-buttons-button">
+              <FaLinkedinIn className="hero-content-button-button-icon" />
+              Linkedin
+            </button>
           </div>
         </div>
 
