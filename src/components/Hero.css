@@ -15,10 +15,23 @@
   transform: translate(-50%, -50%);
   max-width: 70%;
 }
+.hero-tr-gec {
+  position: relative; /* or relative */
+  left: 70%;
+  color: #cbf281;
+  font-size: 8px;
+  font-weight: bold;
+}
+.hero-darkmode-switch {
+  position: relative; /* or relative */
+  left: 76%;
+  top: -7%;
+  color: #4731d3;
+}
 .hero-header-div {
   position: relative; /* or relative */
   left: 50%;
-  top: 10%;
+  top: 15%;
   transform: translate(-50%, -50%);
   max-width: 70%;
 }

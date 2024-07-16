@@ -22,12 +22,12 @@
   margin-left: 0;
 }
 .hero-content-buttons-button {
-  width: 40%;
+  width: 35%;
   display: flex;
   gap: 0.5rem;
   height: 2rem;
   border-radius: 6px;
-  border: 1px solid;
+  border: 1px solid #3730a3;
   color: #3730a3;
   text-align: center;
   align-items: center;

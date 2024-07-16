@@ -10,8 +10,8 @@ function Hero() {
         <div className="hero-header-div">
           <Header></Header>
         </div>
-        <p>TÜRKÇE’YE GEÇ</p>
-        <button>Darkmod</button>
+        <p className="hero-tr-gec">TÜRKÇE’YE GEÇ</p>
+        <button className="hero-darkmode-switch">Darkmod</button>
         <div className="hero-content-div">
           <HeroContent></HeroContent>
         </div>
