@@ -1,10 +1,12 @@
 import React from "react";
 import "./Profile.css";
+import { useTheme } from "../context/useTheme";
 
 function Profile() {
+  const { theme } = useTheme();
   return (
     <>
-      <section className="profile-container">
+      <section className={`profile-container ${theme}`}>
         <div className="profile-title">
           <h1>Profile</h1>
         </div>

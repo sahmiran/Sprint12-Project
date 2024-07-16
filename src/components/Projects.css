@@ -1,32 +1,71 @@
-.projects-container {
-  background-color: #cbf281;
-}
-
-.projects-container-box {
-  margin: 3rem; /* Added 'rem' unit */
-}
-
-.projects-container-card {
-  background-color: #cbf281;
-  margin: 3rem;
-  gap: 3rem;
-  display: flex; /* Use flexbox for container */
-  flex-wrap: wrap; /* Wrap items */
-}
-
-.projects-container-card-one {
+.projects--container--card {
   display: flex;
-  flex-direction: column; /* Set column layout */
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center text */
-  padding: 1rem; /* Added padding for spacing */
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.projects-container-card-image {
-  max-width: 100%; /* Added '%' unit */
-  max-height: 100%; /* Added '%' unit */
+.dark.projects--container--card--one {
+  background-color: #2b2727;
+}
+.projects--container--card--one {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  background-color: white;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  flex: 1;
 }
 
-.projects-container p {
+.projects--container--card--image {
+  max-width: 360px;
+  max-height: 360px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.projects--container--card--one p {
+  text-align: left;
+  font-weight: bold;
   color: black;
+  margin-top: 2rem;
+  font-size: 16px;
+}
+.dark-theme.projects--container--card--one p {
+  color: white;
+}
+
+.projects--container--card--one h1 {
+  margin-top: 4rem;
+  color: #4731d3;
+  font-size: 32px;
+}
+
+.projects--container--buttons {
+  display: flex;
+  gap: 1rem; /* Add spacing between the buttons */
+  margin-top: 1rem;
+}
+
+.projects--container--link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #4731d3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.dark-theme.projects--container--link {
+  color: #cbf281;
+}
+.projects--container--link:hover {
+  background-color: #3626a7;
+}
+.profile-container.dark {
+  background-color: #252128;
 }

@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Skills.css";
 import { API } from "../api/useAxios";
+import { useTheme } from "../context/useTheme";
 
 //import { skillsData } from "../data/skillsIndex.js";
 function Skills() {
   const [skillsData, setSkillsData] = useState([]);
   const [error, setError] = useState("");
+  const { theme } = useTheme();
 
   useEffect(() => {
     API.get("/skills")
@@ -21,7 +23,7 @@ function Skills() {
   }, []);
 
   return (
-    <section className="skills-container">
+    <section className={`skills-container ${theme}`}>
       <div className="skills-container-title">
         <h1>Skills</h1>
       </div>

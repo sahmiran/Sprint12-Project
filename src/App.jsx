@@ -3,6 +3,8 @@ import "./App.css";
 import HomeScreen from "./components/HomeScreen";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { ThemeProvider } from "./context/useTheme";
+import { LanguageProvider } from "./context/useLanguage";
 
 function App() {
   useEffect(() => {
@@ -10,8 +12,12 @@ function App() {
   }, []);
   return (
     <>
-      <HomeScreen></HomeScreen>
-      <ToastContainer></ToastContainer>
+      <LanguageProvider>
+        <ThemeProvider>
+          <HomeScreen></HomeScreen>
+          <ToastContainer></ToastContainer>
+        </ThemeProvider>
+      </LanguageProvider>
     </>
   );
 }
