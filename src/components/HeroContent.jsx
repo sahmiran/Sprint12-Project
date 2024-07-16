@@ -20,6 +20,7 @@ function HeroContent() {
               <FaGithub className="hero-content-button-button-icon" />
               Github
             </button>
+
             <button className="hero-content-buttons-button">
               <FaLinkedinIn className="hero-content-button-button-icon" />
               Linkedin

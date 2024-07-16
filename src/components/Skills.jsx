@@ -1,17 +1,23 @@
 import React, { useEffect, useState } from "react";
 import "./Skills.css";
 import { API } from "../api/useAxios";
+
 //import { skillsData } from "../data/skillsIndex.js";
 function Skills() {
   const [skillsData, setSkillsData] = useState([]);
+  const [error, setError] = useState("");
+
   useEffect(() => {
     API.get("/skills")
       .then((responce) => {
         setSkillsData(responce.data);
         console.log(responce.data);
       })
-      .catch()
-      .finally();
+      .catch((err) => {
+        setError(err.message);
+        console.log(error);
+      })
+      .finally(() => {});
   }, []);
 
   return (
