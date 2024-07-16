@@ -1,3 +1,32 @@
 .projects-container {
   background-color: #cbf281;
 }
+
+.projects-container-box {
+  margin: 3rem; /* Added 'rem' unit */
+}
+
+.projects-container-card {
+  background-color: #cbf281;
+  margin: 3rem;
+  gap: 3rem;
+  display: flex; /* Use flexbox for container */
+  flex-wrap: wrap; /* Wrap items */
+}
+
+.projects-container-card-one {
+  display: flex;
+  flex-direction: column; /* Set column layout */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text */
+  padding: 1rem; /* Added padding for spacing */
+}
+
+.projects-container-card-image {
+  max-width: 100%; /* Added '%' unit */
+  max-height: 100%; /* Added '%' unit */
+}
+
+.projects-container p {
+  color: black;
+}
