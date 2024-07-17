@@ -17,17 +17,17 @@ function Profile() {
           <h1>{language === "EN" ? "Basic Information" : "Temel Bilgiler"}</h1>
           <p>
             <span>{language === "EN" ? "Birth Date:" : "Doğum Tarihi:"}</span>{" "}
-            25.08.1993
+            24.10.1993
           </p>
           <p>
             <span>
               {language === "EN" ? "City of Residence:" : "İkamet Şehri:"}
             </span>{" "}
-            İstanbul
+            Giresun
           </p>
           <p>
             <span>{language === "EN" ? "Education:" : "Eğitim Durumu:"}</span>{" "}
-            Yıldız Teknik Üniversitesi İşletme Lisans 2021
+            Eskişehir Osmangazi Üniversitesi Bilgisayar Mühendisliği 2022
           </p>
           <p>
             <span>
