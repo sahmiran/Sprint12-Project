@@ -1,40 +1,58 @@
-.skills-container {
-  display: flex;
-  flex-grow: initial;
-  flex-direction: row; /* Ensure the title and box are stacked */
-  align-items: center; /* Center horizontally */
-  margin: 0 auto; /* Center horizontally */
-  width: fit-content; /* Adjust the width to fit the content */
-  padding: 20px; /* Optional: Add padding for better appearance */
+.skills {
+  background-color: white;
 }
 
-.skills-container-title {
+.skills--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 20px;
+}
+
+.skills.dark {
+  background-color: #252128;
+  color: white;
+}
+
+.skills--container--title {
   align-self: start;
   margin-right: 180px;
 }
-.skills-container-title h1 {
+.dark.skills--container--title--h1 {
+  color: #cbf281;
+}
+
+.skills--container--title h1 {
   color: black;
 }
-.skills-container-box {
+
+.skills--container--box {
   display: flex;
   flex-direction: column;
+  row-gap: 2rem;
 }
-.skills-container-box-one {
+
+.skills--container--box--one {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5rem;
 }
-.skills-container-box-one p {
+
+.skills--container--box--one p {
   color: black;
+  text-align: right; /* Align text to the right */
   align-self: center;
 }
-.skills-container-box-image {
-  max-width: 120px;
-  max-height: 120px;
-  background-color: #03943f;
+
+.skills.dark .skills--container--box--one p {
+  color: white;
 }
-.skills-container.dark {
-  background-color: #252128;
-}
-.root.dar {
-  background-color: #252128;
+
+.skills--container--box--image {
+  width: 120px;
+  height: 120px;
+  background-color: #038fd6;
 }

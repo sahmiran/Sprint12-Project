@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: #4731d3;
 }
+
 span {
   color: #cbf281;
 }
@@ -35,4 +36,7 @@ h1 {
 .profile-content-middle-img {
   border-radius: 10px;
   width: 100%;
+}
+.dark.profile-container {
+  background-color: #171043;
 }

@@ -26,3 +26,18 @@
   gap: 1rem;
   justify-content: center;
 }
+.dark.footer-container {
+  background-color: #252128;
+}
+.dark.footer-text {
+  color: white;
+}
+.dark.footer-title {
+  color: #8f88ff;
+}
+.dark.footer-email {
+  color: #8f88ff;
+}
+.dark.social-icon {
+  color: #8f88ff;
+}

@@ -1,50 +1,23 @@
 import React from "react";
-
-import "./Projects.css";
-import { useTheme } from "../context/useTheme.jsx";
 import { projectsData } from "../data/projectsIndex.js";
+import "./Projects.css";
+import Project from "./Project.jsx";
+import { useTheme } from "../context/useTheme.jsx";
 
-function Project() {
+function Projects() {
   const { theme } = useTheme();
+  const filteredProjects = projectsData.slice(0, 2);
 
   return (
-    <div className="projects--container--card">
-      {projectsData.map((project) => (
-        <div
-          className={`projects--container--card--one ${theme}`}
-          key={project.id}
-        >
-          <img
-            className="projects--container--card--image"
-            src={project.src}
-            alt={project.title}
-          />
-          <div>
-            <h1>{project.title}</h1>
-            <p>{project.text}</p>
-            <div className="projects--container--buttons">
-              <a
-                href={project.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="projects--container--button"
-              >
-                View Site
-              </a>
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="projects--container--button"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
+    <section className={`projects--container ${theme}`}>
+      <div className="projects--container--box">
+        <div className="projects--container--title">
+          <h1>Projects</h1>
         </div>
-      ))}
-    </div>
+        <Project projectsData={filteredProjects} />
+      </div>
+    </section>
   );
 }
 
-export default Project;
+export default Projects;
