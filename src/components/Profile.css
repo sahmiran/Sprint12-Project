@@ -15,8 +15,9 @@ span {
   margin-left: 15%;
   margin-bottom: 2rem;
 }
-p {
+.profile-container p {
   color: white;
+  margin-top: 1rem;
 }
 h1 {
   color: white;
@@ -26,12 +27,18 @@ h1 {
   color: #cbf281;
   font-size: 2rem;
   margin-left: 15%;
+  margin-bottom: 2rem;
 }
 .profile-content-left {
-  width: 35%;
+  width: 34%;
+  margin-left: 0;
 }
 .profile-content-right {
-  width: 35%;
+  width: 34%;
+  margin-right: 0;
+}
+.profile-content-middle {
+  width: 30%;
 }
 .profile-content-middle-img {
   border-radius: 10px;

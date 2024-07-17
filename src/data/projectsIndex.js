@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     id: "1",
-    src: "https://images-ext-1.discordapp.net/external/uTZT69ddot-Ygyv95jLNivCwFWQ53kFxOKoKedS1X7E/%3FExpires%3D1721606400%26Key-Pair-Id%3DAPKAQ4GOSFWCVNEHN3O4%26Signature%3DQo9vD~~ND8mtmWdtenEvh1Jx0oSvLHo4b~YGx9P1-FymeFpkzmEz9lx7RfI3iEWuVjKUqZZthQtFVobzjQWmkvIDUz-pWu6AJENR1TPGZ-tjV3I~xzibxAfMq3Roo4EuWHLP9weQJUftMq5rfCyzZ64LS5YGt1io3aAq7C2JWGGU0h0Di4gjghrw9tavRsS6Ajxa8EQtIUgOWWLdm~oCzxqNWWB3sHFyQsz9JdGdot4NNo~hYjfdyjO4~a0HmFku~U0pK4eenTgNEusNUL0rxgA0je5Zhtv3tjV0dmHNuK2BBNcA4Df0EOHH698Dy6TVQ1unUmMm9ni5xwIYp4vTtQ__/https/s3-alpha-sig.figma.com/img/7a34/4b5b/3888c5ad5ffa3a6dba3961306694fe6c?format=webp",
+    src: "https://s3-alpha-sig.figma.com/img/ad50/81bf/69bb4825e42350e768340fdbec09d78b?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GwtXBGUnG9D1B9OqW51IC027TeBIyo2Wz0Xb4N~7QQX6gTjDHPaXfkr5PHoNTsHPnFZ4QeY7sejJmaOJn-9e6riFH2Od81Pv~NW-M6kg7y-PtUm59ocEN566jlQVvzvcCSkBM5RRnhs5vU5IZfAWM0f1CeAbXtoL5TfumYWj3uY~hBQFNhNPD6HPXPTMN6k4Xe2mewUJoLxbIZUeRVLVqVLBNQmOqtp75Ndz8VrXKzOlkMW4AGf9F4S72GfM9NhMBQcUJNr0wkI6rENn9AzWl1JfqjksviJFA1RiOoYMeBaMED82LDn4WapNCkk9t1on0FOT7Mxbajar4V7QQz7ilA__",
     title: "Workintech",
     text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     github: "https://github.com/FurkanPehlvn/twitclone2",
@@ -9,7 +9,7 @@ export const projectsData = [
   },
   {
     id: "2",
-    src: "https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_400x400.png",
+    src: "https://s3-alpha-sig.figma.com/img/600e/630b/a9370e031b441737654465d0f374af51?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QZSwHGixwG4qRzPvkNQfZMLRQlrRQpWBZr267mgprEF1Js9cP9WJU4i~jpm9e19cTAU63MCAhtPjYTtLQtW6ueF3oAW5Du7Z3K7ycnjOwDlXub5zk-gmUvkdvqGgNhdM9XIh-0uUe-uxolcd8InOInOICSnVUV1c0IzoVELTx9wIIRDfk6u8~4iK5fFhrWK5vBrxhkS9eGReFxWLl68YiWOdQt7bedUTfxBqtzLTL1cvVPArzhN1zpk3h8347pbhxrJu11ftKDqdPQ9S50NTFbQhvnbOeTVDF7OP8vlxHRCMrVhVK8dO3z92MirinRd1-EFbZtGafUG1GPD3B49gXg__",
     title: "Journey",
     text: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     github: "https://github.com/FurkanPehlvn/FSWeb-S9-Sprint-Challenge",

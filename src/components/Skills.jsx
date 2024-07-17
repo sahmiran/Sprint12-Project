@@ -3,6 +3,8 @@ import "./Skills.css";
 
 import { API } from "../api/useAxios.js";
 import { useTheme } from "../context/useTheme.jsx";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Skills() {
   const { theme } = useTheme();
@@ -12,6 +14,7 @@ function Skills() {
       .then((responce) => {
         setSkillsData(responce.data);
         console.log(responce.data);
+        toast.success("skilles mock api den alindi");
       })
       .catch()
       .finally();

@@ -3,7 +3,14 @@ import { createContext, useState, useContext } from "react";
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState("EN");
+  let defaultLang = "TR";
+  if (localStorage.getItem("language")) {
+    defaultLang = localStorage.getItem("language");
+  } else {
+    defaultLang = "TR";
+  }
+
+  const [language, setLanguage] = useState(defaultLang);
 
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === "EN" ? "TR" : "EN"));
