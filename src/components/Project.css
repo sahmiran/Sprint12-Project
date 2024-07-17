@@ -71,3 +71,6 @@
 .dark.projects--container--card {
   background-color: #1a210b;
 }
+.dark p {
+  color: white;
+}
